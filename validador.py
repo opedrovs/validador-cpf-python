@@ -22,10 +22,6 @@ def menu():
     linha()
 
 
-# 111.111.111.11
-# 705.484.450-52 / 070.987.720-03
-
-
 def validaCPF(cpfEnviado):
     cpfLimpo = cpfEnviado.replace('.', '').replace('-', '')
     return cpfLimpo
